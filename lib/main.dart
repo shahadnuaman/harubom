@@ -12,10 +12,11 @@ class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
   MaterialPageRoute _buildRoute(RouteSettings settings, Widget builder) {
     return new MaterialPageRoute(
-        settings: settings,
-        builder: (ctx) => builder,
+      settings: settings,
+      builder: (ctx) => builder,
     );
-}
+  }
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -26,13 +27,13 @@ class MyApp extends StatelessWidget {
       // home: SplashScreen(),
       // We use routeName so that we dont need to remember the name
       initialRoute: SplashScreen.routeName,
-      // routes: routes,
-      onGenerateRoute:(arguments){
-        if(arguments.name==TestScreen.routeName){
-          final args = arguments.arguments as ScreenArguments;
-         return _buildRoute(arguments,  TestScreen(args.arguments));
-        }
-      } ,
+      routes: routes,
+      // onGenerateRoute:(arguments){
+      //   if(arguments.name==TestScreen.routeName){
+      //     final args = arguments.arguments as ScreenArguments;
+      //    return _buildRoute(arguments,  TestScreen(args.arguments));
+      //   }
+      // } ,
     );
   }
 }

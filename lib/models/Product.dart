@@ -101,5 +101,4 @@ List<Product> demoProducts = [
   ),
 ];
 
-const String description =
-    "Wireless Controller for PS4™ gives you what you want in your gaming from over precision control your games to sharing …";
+const String description = "سوتر قطني 100% خامة رائعة صناعة يابانيسوتر قطني";

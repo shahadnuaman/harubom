@@ -5,6 +5,7 @@ import 'package:harubom/categories.dart';
 import 'package:harubom/components/coustom_bottom_nav_bar.dart';
 import 'package:harubom/components/product.dart';
 import 'package:harubom/components/spacialoffers.dart';
+import 'package:harubom/detailsscreen.dart';
 import 'package:harubom/enums.dart';
 import 'package:harubom/sidebarmenu.dart';
 import 'package:iconsax/iconsax.dart';
@@ -17,6 +18,12 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
+
+        ///routes:
+        routes: {
+          // When navigating to the "/" route, build the FirstScreen widget.
+          '/details': (context) => DetailsScreen()
+        },
         home: Scaffold(
           ///appBar: app(title: Text("title")),
           drawer: NavDrawer(),

@@ -31,11 +31,9 @@ class ProductCard extends StatelessWidget {
           //     builder: (context) => const DetailsScreen(),
           //     settings: RouteSettings(
           //         arguments: ProductDetailsArguments[product],))),
-          // => Navigator.pushNamed(
-          //   context,
-          //   DetailsScreen.routeName,
-          //   arguments: ProductDetailsArguments(product: product),
-          //
+          onTap: () => Navigator.pushNamed(context, DetailsScreen.routeName,
+              arguments: ProductDetailsArguments(product: product)),
+
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

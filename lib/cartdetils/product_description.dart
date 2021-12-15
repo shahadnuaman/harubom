@@ -23,6 +23,7 @@ class ProductDescription extends StatelessWidget {
           padding: EdgeInsets.symmetric(horizontal: 20),
           child: Text(
             product.title,
+            textDirection: TextDirection.rtl,
             style: Theme.of(context).textTheme.headline6,
           ),
         ),
@@ -67,7 +68,8 @@ class ProductDescription extends StatelessWidget {
             child: Row(
               children: [
                 Text(
-                  "See More Detail",
+                  "المزيد...",
+                  textDirection: TextDirection.rtl,
                   style: TextStyle(
                       fontWeight: FontWeight.w600, color: kPrimaryColor),
                 ),

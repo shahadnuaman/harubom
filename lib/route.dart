@@ -5,7 +5,8 @@ import 'package:harubom/loginscreen.dart';
 import 'package:harubom/registration.dart';
 import 'package:harubom/sidebarmenu.dart';
 import 'package:harubom/splashscreen.dart';
-import 'package:harubom/detailsscreen.dart';
+
+///import 'package:harubom/detailsscreen.dart';
 
 // We use name route
 // All our routes will be available here

@@ -4,6 +4,7 @@ import 'loginscreen.dart';
 
 class RegistrationScreen extends StatelessWidget {
   static String routeName = "/Registration";
+  ////
 
   const RegistrationScreen({Key? key}) : super(key: key);
   @override

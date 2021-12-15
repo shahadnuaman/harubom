@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:harubom/constants.dart';
-
-///import 'package:harubom/size_config.dart';
+import 'package:harubom/size_config.dart';
 
 class DefaultButton extends StatelessWidget {
   const DefaultButton({

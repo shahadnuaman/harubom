@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
-///import 'package:harubom/detailsscreen.dart';
-///import 'package:harubom/helpers.dart';
+import 'package:harubom/detailsscreen.dart';
+import 'package:harubom/helpers.dart';
 import 'package:harubom/models/Product.dart';
 
 import '../constants.dart';

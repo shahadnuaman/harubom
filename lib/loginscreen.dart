@@ -1,8 +1,7 @@
 // ignore_for_file: unnecessary_const
 
 import 'package:flutter/material.dart';
-
-///import 'package:harubom/helpers.dart';
+import 'package:harubom/helpers.dart';
 import 'package:harubom/registration.dart';
 
 import 'home.dart';

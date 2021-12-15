@@ -4,6 +4,7 @@ import 'loginscreen.dart';
 
 class RegistrationScreen extends StatelessWidget {
   static String routeName = "/Registration";
+  ////
 
   const RegistrationScreen({Key? key}) : super(key: key);
   @override
@@ -23,11 +24,15 @@ class RegistrationScreen extends StatelessWidget {
                 width: 350,
                 height: 54,
                 child: TextField(
-                  style: const TextStyle(fontFamily: 'Cairo'),
+                  style: const TextStyle(
+                      fontFamily: 'Cairo', color: Color(0xffA0054F)),
                   textAlign: TextAlign.right,
                   textDirection: TextDirection.rtl,
                   // ignore: prefer_const_constructors
                   decoration: InputDecoration(
+                    focusedBorder: OutlineInputBorder(
+                        borderSide:
+                            const BorderSide(color: Colors.grey, width: 1.0)),
                     hintTextDirection: TextDirection.rtl,
                     enabledBorder: OutlineInputBorder(
                         borderSide:
@@ -49,11 +54,15 @@ class RegistrationScreen extends StatelessWidget {
                 width: 350,
                 height: 54,
                 child: TextField(
-                  style: const TextStyle(fontFamily: 'Cairo'),
+                  style: const TextStyle(
+                      fontFamily: 'Cairo', color: Color(0xffA0054F)),
                   textAlign: TextAlign.right,
                   textDirection: TextDirection.rtl,
                   // ignore: prefer_const_constructors
                   decoration: InputDecoration(
+                    focusedBorder: OutlineInputBorder(
+                        borderSide:
+                            const BorderSide(color: Colors.grey, width: 1.0)),
                     hintTextDirection: TextDirection.rtl,
                     enabledBorder: OutlineInputBorder(
                         borderSide:
@@ -76,12 +85,15 @@ class RegistrationScreen extends StatelessWidget {
                 width: 350,
                 height: 54,
                 child: TextField(
-                  style:
-                      const TextStyle(fontFamily: 'Cairo', color: Colors.red),
+                  style: const TextStyle(
+                      fontFamily: 'Cairo', color: Color(0xffA0054F)),
                   textAlign: TextAlign.right,
                   textDirection: TextDirection.rtl,
                   // ignore: prefer_const_constructors
                   decoration: InputDecoration(
+                    focusedBorder: OutlineInputBorder(
+                        borderSide:
+                            const BorderSide(color: Colors.grey, width: 1.0)),
                     enabledBorder: OutlineInputBorder(
                         borderSide:
                             const BorderSide(color: Colors.grey, width: 1.0),
@@ -103,12 +115,15 @@ class RegistrationScreen extends StatelessWidget {
                 width: 350,
                 height: 54,
                 child: TextField(
-                  style:
-                      const TextStyle(fontFamily: 'Cairo', color: Colors.red),
+                  style: const TextStyle(
+                      fontFamily: 'Cairo', color: Color(0xffA0054F)),
                   textAlign: TextAlign.right,
                   textDirection: TextDirection.rtl,
                   // ignore: prefer_const_constructors
                   decoration: InputDecoration(
+                    focusedBorder: OutlineInputBorder(
+                        borderSide:
+                            const BorderSide(color: Colors.grey, width: 1.0)),
                     enabledBorder: OutlineInputBorder(
                         borderSide:
                             const BorderSide(color: Colors.grey, width: 1.0),
@@ -130,12 +145,15 @@ class RegistrationScreen extends StatelessWidget {
                 width: 350,
                 height: 54,
                 child: TextField(
-                  style:
-                      const TextStyle(fontFamily: 'Cairo', color: Colors.red),
+                  style: const TextStyle(
+                      fontFamily: 'Cairo', color: Color(0xffA0054F)),
                   textAlign: TextAlign.right,
                   textDirection: TextDirection.rtl,
                   // ignore: prefer_const_constructors
                   decoration: InputDecoration(
+                    focusedBorder: OutlineInputBorder(
+                        borderSide:
+                            const BorderSide(color: Colors.grey, width: 1.0)),
                     enabledBorder: OutlineInputBorder(
                         borderSide:
                             const BorderSide(color: Colors.grey, width: 1.0),
@@ -156,12 +174,15 @@ class RegistrationScreen extends StatelessWidget {
                 width: 350,
                 height: 54,
                 child: TextField(
-                  style:
-                      const TextStyle(fontFamily: 'Cairo', color: Colors.red),
+                  style: const TextStyle(
+                      fontFamily: 'Cairo', color: Color(0xffA0054F)),
                   textAlign: TextAlign.right,
                   textDirection: TextDirection.rtl,
                   // ignore: prefer_const_constructors
                   decoration: InputDecoration(
+                    focusedBorder: OutlineInputBorder(
+                        borderSide:
+                            const BorderSide(color: Colors.grey, width: 1.0)),
                     enabledBorder: OutlineInputBorder(
                         borderSide:
                             const BorderSide(color: Colors.grey, width: 1.0),
@@ -186,7 +207,7 @@ class RegistrationScreen extends StatelessWidget {
                   style: TextButton.styleFrom(
                     backgroundColor: const Color(0xFF458CAA),
                     primary: Colors.blue,
-                    onSurface: Colors.red,
+                    onSurface: Color(0xffA0054F),
                     shape: new RoundedRectangleBorder(
                         borderRadius: new BorderRadius.circular(10.0)),
                   ),

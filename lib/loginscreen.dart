@@ -32,6 +32,10 @@ class LoginScreen extends StatelessWidget {
               textDirection: TextDirection.rtl,
               // ignore: prefer_const_constructors
               decoration: InputDecoration(
+                focusedBorder: OutlineInputBorder(
+                    borderSide:
+                        const BorderSide(color: Colors.grey, width: 1.0),
+                    borderRadius: BorderRadius.circular(10.0)),
                 hintTextDirection: TextDirection.rtl,
                 enabledBorder: OutlineInputBorder(
                     borderSide:
@@ -58,6 +62,10 @@ class LoginScreen extends StatelessWidget {
               textDirection: TextDirection.rtl,
               // ignore: prefer_const_constructors
               decoration: InputDecoration(
+                focusedBorder: OutlineInputBorder(
+                    borderSide:
+                        const BorderSide(color: Colors.grey, width: 1.0),
+                    borderRadius: BorderRadius.circular(10.0)),
                 enabledBorder: OutlineInputBorder(
                     borderSide:
                         const BorderSide(color: Colors.grey, width: 1.0),

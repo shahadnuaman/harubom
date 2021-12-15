@@ -11,12 +11,12 @@ import 'package:harubom/splashscreen.dart';
 // We use name route
 // All our routes will be available here
 final Map<String, WidgetBuilder> routes = {
-  SplashScreen.routeName: (context) => const SplashScreen(),
-  LoginScreen.routeName: (context) => const LoginScreen(),
-  RegistrationScreen.routeName: (context) => const RegistrationScreen(),
-  Home.routeName: (context) => const Home(),
-  // DetailsScreen.routeName: (context) => DetailsScreen(),
-  NavDrawer.routeName: (context) => NavDrawer(),
+  "/splash": (context) => const SplashScreen(),
+  '/login': (context) => const LoginScreen(),
+  '/Registration"': (context) => const RegistrationScreen(),
+  '/home': (context) => const Home(),
+  '/details': (context) => DetailsScreen(),
+  '/navbar': (context) => NavDrawer(),
 
   ///ProduuctScreen.routeName: (context) => const ProduuctScreen
   ///.///test
